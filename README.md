@@ -7,7 +7,7 @@ This repository contains all the laboratory coursework for the course **IS F462:
 
 | Lab | Topic | Lab Sheet | Date |
 | ------------- | ------------- | --- | -- |
-| 1  | Debugging, Profiling, Makefile and Process info | [Lab 1](lab-01/labsheet.pdf) | 3 Sep 2022 |
+| 1  | Debugging, Profiling, Makefile and Process info | [Lab 1](lab-01/labsheet.pdf) | 10 Sep 2022 |
 | 2  | Environment of a Single Process | [Lab 2](lab-02/labsheet.pdf) | TBA |
 | 3  | `setjmp`, `zombie`, `exec`, and Signals | [Lab 3](lab-03/labsheet.pdf) | TBA |
 | 4  | Pipes, FIFO, Message Queue | [Lab 4](lab-04/labsheet.pdf) | TBA |
