@@ -13,7 +13,7 @@ main ()
   var = 88;
   printf ("Before fork\n");
 
-  if ((pid = fork ()) < 0)
+  if ((pid = vfork ()) < 0)
     perror ("fork");   //function to print error that occurred in the process
   else if (pid == 0)
     {

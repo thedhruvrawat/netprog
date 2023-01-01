@@ -3,7 +3,7 @@
 void int_handler(int signo);
 main ()
 {
-  signal (SIGINT, int_handler);
+  signal (SIG_DFL, int_handler);
   printf ("Entering infinite loop\n");
   while (1)
     {

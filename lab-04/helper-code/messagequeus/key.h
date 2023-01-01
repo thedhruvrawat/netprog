@@ -1,1 +1,1 @@
-#define MSGQ_PATH "/home/students/…./f2007045/msgq_server.c "    //put the appropriate path 
+#define MSGQ_PATH "/home/thedhruvrawat/Desktop/netprog/lab-04/helper-code/messagequeues/msgq_server.c "    //put the appropriate path 

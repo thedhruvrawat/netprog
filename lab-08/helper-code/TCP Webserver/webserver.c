@@ -10,8 +10,7 @@
 #include <sys/types.h>
 
 int
-main (int argc, char **argv)
-{
+main (int argc, char **argv) {
   int connfd, lfd, listenfd, i = 0;
   pid_t pid, ret;
   int p[2];
@@ -60,3 +59,4 @@ main (int argc, char **argv)
       close (connfd);
 
     }
+}

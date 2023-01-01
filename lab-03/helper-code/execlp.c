@@ -4,8 +4,7 @@
 #include <stdio.h>
 #define MAX 10
 void pr_exit (int status);
-main (int argc, char *argv[])
-{
+main (int argc, char *argv[]) {
   pid_t pid[MAX];
   int i, status;
   for (i = 1; i < argc; i++)
@@ -27,9 +26,7 @@ main (int argc, char *argv[])
 }
 
 
-void
-pr_exit (int status)
-{
+void pr_exit (int status) {
   if (WIFEXITED (status))
     printf ("normal termination, exit status = %d\n", WEXITSTATUS (status));
   else if (WIFSIGNALED (status))

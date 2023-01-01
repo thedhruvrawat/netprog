@@ -11,15 +11,19 @@ main ()
   ret = fork ();
   if (ret == 0)
     {
-      for (i = 0; i < 5000; i++)
+      for (i = 0; i < 5000; i++) {
         printf ("Child: %d\n", i);
+        //sleep(1);
+      }
       printf ("Child ends\n");
     }
   else
     {
-      wait (&status);
+      wait(&status);
       printf ("Parent resumes.\n");
-      for (j = 0; j < 5000; j++)
+      for (j = 0; j < 5000; j++) {
         printf ("Parent: %d\n", j);
+        //sleep(1);
+      }
     }
 }
